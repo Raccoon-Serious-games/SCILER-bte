@@ -4,7 +4,8 @@ The back-end server contains and manages all logic in the escape room.
 ## Deployment on Raspberry Pi
 
 #### If needed install go1.13.4:
-- run  `pi@raspberrypi:~ $ wget https://storage.googleapis.com/golang/go1.13.4.linux-armv6l.tar.gz`
+- run  `pi@raspberrypi:~ $ wget https://storage.googleapis.com/golang/go1.13.4.linux-armv6l.tar.gz
+  - Of de 64 bit versie: https://go.dev/dl/go1.13.4.linux-arm64.tar.gz
 - run  `pi@raspberrypi:~ $ sudo tar -C /usr/local -xzf go1.13.4.linux-armv6l.tar.gz`
 - run ` pi@raspberrypi:~ $ export PATH=$PATH:/usr/local/go/bin` 
 - run ` pi@raspberrypi:~ $ go version` to check if succeeded 
